@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Rank Risers Digital to talk about your next digital growth project.">
+  <title>Contact — Rank Risers Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">R</span><span>Rank Risers <b>Digital</b></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span><span></span></button><nav id="primary-nav" class="nav-links" aria-label="Primary navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a href="index.html#process">Process</a><a class="active" href="contact.html">Contact</a><a href="#contact-form" class="nav-cta">Start a project <span>↗</span></a></nav></div></header>
+  <main>
+    <section class="contact-page-hero"><div class="container"><p class="eyebrow"><span></span> Contact us</p><h1>Let's make your<br><em>next move count.</em></h1><p class="hero-lede">Have a question or a big idea? Tell us what you're working on. We'd love to hear from you.</p></div></section>
+    <section class="contact-page-content" id="contact-form"><div class="container contact-layout">
+      <div class="contact-details"><p class="eyebrow"><span></span> Get in touch</p><h2>Good things start with a conversation.</h2><p>Share a few details and we’ll get back to you about how Rank Risers Digital can help.</p><a class="contact-email" href="mailto:hello@rankrisersdigital.com">hello@rankrisersdigital.com <span>↗</span></a><div class="contact-note"><span>R</span><p>Strategy. Creativity.<br>Technology.</p></div></div>
+      <form class="contact-form" id="project-form">
+        <label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Jane Smith">
+        <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="jane@company.com">
+        <label for="service">What can we help with?</label><select id="service" name="service" required><option value="" disabled selected>Select a service</option><option>SEO</option><option>Social Media Marketing</option><option>PPC</option><option>Web Development</option><option>AI Solutions</option><option>Custom Software Development</option><option>Something else</option></select>
+        <label for="message">Tell us about your project</label><textarea id="message" name="message" rows="5" required placeholder="A little about your goals, timeline, or ideas..."></textarea>
+        <button class="button button-primary" type="submit">Send your inquiry <span>↗</span></button><p class="form-hint">Your email app will open with your message ready to send.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer><div class="container footer-grid"><a class="brand" href="index.html"><span class="brand-mark">R</span><span>Rank Risers <b>Digital</b></span></a><p>Strategy. Creativity. Technology.</p><div class="footer-links"><a href="services.html">Services</a><a href="mailto:hello@rankrisersdigital.com">Email us</a></div></div></footer>
+  <div class="contact-modal" id="contact-modal" aria-hidden="true"><div class="contact-modal__backdrop" data-modal-close></div><section class="contact-modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description"><button class="contact-modal__close" type="button" aria-label="Close contact popup" data-modal-close>&times;</button><p class="eyebrow"><span></span> Let's talk</p><h2 id="modal-title">Ready to rise?</h2><p id="modal-description">Tell us a little about your project and we’ll help you find the right next step.</p><a class="button button-primary" href="#contact-form" data-modal-close>Contact our team <span>↗</span></a><button class="contact-modal__later" type="button" data-modal-close>Maybe later</button></section></div>
+  <script src="script.js"></script>
+</body>
+</html>

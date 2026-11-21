@@ -5,7 +5,10 @@ A responsive digital marketing agency website built with plain HTML, CSS, and Ja
 ## Pages
 
 - `index.html` — Home
-- `services.html` — Services
+- `services.html` — SEO, SMO, PPC, web development, AI, and custom software services
+- `contact.html` — Contact details and inquiry form
+
+A contact popup appears three seconds after a page loads. Closing it suppresses it for the rest of the browser session. The contact form opens the visitor's default email app to send the inquiry to `hello@rankrisersdigital.com`.
 
 ## Run locally
 
